@@ -17,4 +17,6 @@ class AppRoutes{
   static const layout_4_1     = '/layout_4_1';
   static const layout_4_2     = '/layout_4_2';
 
+  static const layout_5       = '/layout_5';
+
 }

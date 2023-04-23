@@ -69,6 +69,7 @@ flutter:
     - assets/images/layout_1/
     - assets/images/layout_2/
     - assets/images/layout_3/
+    - assets/images/layout_5/
     - assets/images/avatar/
 
   # An image asset can refer to one or more resolution-specific "variants", see

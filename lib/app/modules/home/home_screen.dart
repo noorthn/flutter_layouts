@@ -1,5 +1,6 @@
 
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -9,7 +10,7 @@ import 'controllers/home_controller.dart';
 class HomeScreen extends GetView<HomeController> {
   const HomeScreen({super.key});
   
-  tile({String title = '',String category = '', IconData icon = Iconsax.box, String route = '/layout1'}){
+  tile({String maker = '',String title = '',String category = '', IconData icon = Iconsax.box, String route = '/layout1'}){
     return Column(
       children: [
         ListTile(
@@ -22,7 +23,6 @@ class HomeScreen extends GetView<HomeController> {
           ),
           leading   : Container(
             padding   : const EdgeInsets.all(10),
-
             decoration: const BoxDecoration(
               color       : Colors.amber,
               borderRadius: BorderRadius.all(Radius.circular(15))
@@ -30,6 +30,17 @@ class HomeScreen extends GetView<HomeController> {
             child : const Icon(Iconsax.designtools),
           ),
           onTap: () => Get.toNamed(route),
+          trailing: InkWell(
+            onTap: () => maker,
+            child: Container(
+              padding   : const EdgeInsets.all(10),
+              decoration: const BoxDecoration(
+                color       : Color.fromARGB(255, 238, 234, 240),
+                borderRadius: BorderRadius.all(Radius.circular(15))
+              ),
+              child: const Icon(CupertinoIcons.checkmark_seal_fill),
+            )
+          )
         ),
         const Divider()
       ],
@@ -59,6 +70,11 @@ class HomeScreen extends GetView<HomeController> {
               title   : 'Layout 4',
               category: 'Food',
               route   : '/layout_4'
+            ),
+            tile(
+              title   : 'Layout 5',
+              category: 'Game Store',
+              route   : '/layout_5'
             ),
         ]
       )

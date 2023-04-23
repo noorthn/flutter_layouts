@@ -11,6 +11,8 @@ import '../app/modules/layout_4/controllers/layout_4_binding.dart';
 import '../app/modules/layout_4/pages/layout_4_1_screen.dart';
 import '../app/modules/layout_4/pages/layout_4_2_screen.dart';
 import '../app/modules/layout_4/pages/layout_4_screen.dart';
+import '../app/modules/layout_5/controllers/layout_5_binding.dart';
+import '../app/modules/layout_5/pages/layout_5_screen.dart';
 import 'routes.dart';
 
 import '../app/modules/plash/controllers/splash_binding.dart';
@@ -91,6 +93,13 @@ class AppPage{
       name    : AppRoutes.layout_4_2,
       page    : () =>const  Layout42Screen(),
       binding : Layout4Binding()
-    )
+    ),
+
+
+    GetPage(
+      name    : AppRoutes.layout_5,
+      page    : () =>const  Layout5Screen(),
+      binding : Layout5Binding()
+    ),
   ];
 }

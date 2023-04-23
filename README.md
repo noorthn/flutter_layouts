@@ -1,5 +1,21 @@
 # Flutter Layout
 
+### Layout 1
+
+| ![Layout 1](/assets/images/screenshots/layout_1.png) | ![Layout 1.1](/assets/images/screenshots/layout_1_1.png)
+
+### Layout 2
+
+| ![Layout 2](/assets/images/screenshots/layout_2.png) | ![Layout 2.1](/assets/images/screenshots/layout_2_1.png) | ![Layout 2.2](/assets/images/screenshots/layout_2_2.png)
+
+### Layout 3
+
+| ![Layout 3](/assets/images/screenshots/layout_1.png) | ![Layout 3.1](/assets/images/screenshots/layout_3_1.png) 
+
+### Layout 4
+
+| ![Layout 4](/assets/images/screenshots/layout_4.png) | ![Layout 4.1](/assets/images/screenshots/layout_4_1.png)   | ![Layout 4.2](/assets/images/screenshots/layout_4_2.png)
+
 
 ## Sobre el proyecto:
 

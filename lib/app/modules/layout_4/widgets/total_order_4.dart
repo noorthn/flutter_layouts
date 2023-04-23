@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iconsax/iconsax.dart';
 
 import '../controllers/layout_4_controller.dart';
 
@@ -19,7 +18,7 @@ class TotalOrder4 extends GetView<Layout4Controller> {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-          Container(
+          SizedBox(
             width: Get.width / 1.6,
             child: TextFormField(
               controller: controller.discountCt,

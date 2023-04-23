@@ -1,16 +1,18 @@
-# flutter_layout
+# Flutter Layout
 
-A new Flutter project.
 
-## Getting Started
+## Sobre el proyecto:
 
-This project is a starting point for a Flutter application.
+Este proyecto se enfoca en crear diseños de aplicaciones móviles con el framework Flutter. Durante el proceso de creación, tomé inspiración de diferentes sitios de referencia para el diseño de interfaces gráficas de usuario. Los diseños utilizados no son todos de mi autoría, por lo que en la app se enlazarán a los creadores originales de cada diseño.
 
-A few resources to get you started if this is your first Flutter project:
+El objetivo principal de este proyecto es enseñar a otros desarrolladores cómo se pueden crear interfaces gráficas de usuario en Flutter. Además, este proyecto se comparte de forma abierta y gratuita para que cualquiera pueda utilizar el código como base para sus propios proyectos.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Cómo usar
+Para utilizar el código de este proyecto, simplemente clona este repositorio en tu computadora y abre el proyecto en un editor de código. Desde ahí, podrás ejecutar el proyecto y ver los diferentes diseños de interfaces gráficas de usuario creados en Flutter.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contribuciones
+Este proyecto es un esfuerzo colaborativo y se aceptan contribuciones de cualquier persona interesada en ayudar. Si tienes sugerencias o mejoras que quieras hacer al proyecto, por favor abre un Pull Request o una Issue en GitHub y discutamos juntos cómo mejorar el proyecto.
+
+Además, agradezco a todos los seguidores que me acompañan en mis transmisiones en Twitch donde muestro el proceso de creación de este proyecto y comparto mis conocimientos sobre Flutter.
+
+- [Mi canal twitch](https://www.twitch.tv/noorthn)

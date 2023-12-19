@@ -31,7 +31,7 @@ class Layout5Screen extends GetView<Layout5Controller> {
 
   section1(){
     return Row(
-      children: [
+      children: const [
 
       ],
     );
